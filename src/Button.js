@@ -1,5 +1,4 @@
-import plusIcon from "./assets/plus.svg";
-
+import plusIcon from "./images/plus.svg";
 function Button({ children }) {
   return (
     <button type="button" className="flex">

@@ -238,7 +238,7 @@ input[type="radio"]:checked + label::before {
   -webkit-appearance: none;
   -moz-appearance: none;
 
-  background: url(/public/selectIcon.svg);
+  background: url(./images/selectIcon.svg);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: 50%;

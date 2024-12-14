@@ -1,3 +1,5 @@
+import most_popular_bg_img from "./images/mostPopular.svg";
+
 function Box({ item, isOpen, handleOpen }) {
   return (
     <div
@@ -70,7 +72,7 @@ function Box({ item, isOpen, handleOpen }) {
       {item.unit === 2 && (
         <>
           <div className="most_popular flex">MOST POPULAR</div>
-          <img src="/public/mostPopular.svg" alt="" />
+          <img src={most_popular_bg_img} alt="" />
         </>
       )}
     </div>
