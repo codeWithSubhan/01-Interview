@@ -277,9 +277,9 @@ input[type="radio"]:checked + label::before {
   background-color: var(--theme-color);
   outline: none;
   border: none;
-
+  font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  /* font-size: 12px; */
   line-height: 14.52px;
   margin-bottom: 2px;
   color: #ffffff;

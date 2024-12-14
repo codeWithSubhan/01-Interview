@@ -8,6 +8,9 @@ import TotalAmount from "./TotalAmount";
 
 import "./index.css";
 
+// https://www.loom.com/share/e99bd1af77c54e13b74f00224c3a50b5
+// https://www.figma.com/design/FUyAi4WDU6pLgYQlutb7nJ/16-Dec---Screening---Screening-Task-For-Front-End-Developer-(Copy)?node-id=0-1&p=f&t=WGEZ9yLRymA4F3HG-0
+
 function App() {
   const [isOpen, setIsOpen] = useState(0);
 

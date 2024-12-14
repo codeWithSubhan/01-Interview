@@ -6,6 +6,7 @@ function Box({ item, isOpen, handleOpen }) {
       className={`box flex ${isOpen ? "expanded" : ""} ${
         item.unit === 2 ? "most_popular_box" : ""
       }`}
+      onClick={() => handleOpen(item.unit)}
     >
       <input
         type="radio"
@@ -13,7 +14,6 @@ function Box({ item, isOpen, handleOpen }) {
         value="1"
         id={`radio-button-${item.unit}`}
         checked={isOpen}
-        onChange={() => handleOpen(item.unit)}
       />
       <label htmlFor={`radio-button-${item.unit}`}></label>
 
