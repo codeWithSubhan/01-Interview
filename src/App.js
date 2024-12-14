@@ -87,7 +87,9 @@ function App() {
 
           <TotalAmount>
             <p>Free Delivery</p>
-            <p>Total: $18.00 USD</p>
+            <p>
+              Total: <span>$18.00 USD</span>
+            </p>
           </TotalAmount>
 
           <Button>Add to Cart</Button>

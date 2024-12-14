@@ -173,7 +173,8 @@ input[type="radio"]:checked + label::before {
   background: var(--theme-color);
 }
 
-#box_section .box_container .box .discount_amount_text p:first-child {
+#box_section .box_container .box .discount_amount_text p:first-child,
+.total_amount p:last-child span {
   font-weight: 500;
   font-size: 14.46px;
   line-height: 17.5px;
